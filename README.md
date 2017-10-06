@@ -5,7 +5,8 @@ A stupid api that will forward messages to telegram and add a funny quote
 ```bash
 git clone https://github.com/Hoi15A/slash-api.git
 cd slash-api
-npm i
+cp config/auth.example.json config/auth.json
 vim config/auth.json
+npm i
 npm start
 ```
